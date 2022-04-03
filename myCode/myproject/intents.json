@@ -1,0 +1,57 @@
+{
+    "intents": [
+      {
+        "tag": "general info",
+        "patterns": [
+          "What is a period?",
+          "Why am I bleeding",
+          "How long does a period last?", 
+          "Why does my tummy hurt",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "A period is the part of the menstrual cycle when a woman bleeds from her vagina for a few days! Don't worry it's normal! It's a sign you are growing up",
+          "It's part of your body's natural cycle. It's called a period. A period is the part of the menstrual cycle when a woman bleeds from her vagina for a few days! Don't worry it's normal! It's a sign you are growing up",
+          "Your period, also known as menstruation, typically lasts anywhere from two to eight days!",
+          "Menstrual cramps (dysmenorrhea) are throbbing or cramping pains in the lower abdomen. Many women have menstrual cramps just before and during their menstrual periods. It's normal!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "cramps",
+        "patterns": [
+          "How can I stop making my tummy hurt?",
+          "Why do I have cramps"
+        ],
+        "responses": [
+          "Stretch and massage. Stretch the cramped muscle and gently rub it to help it relax. For a calf cramp, put your weight on your cramped leg and bend your knee slightly.",
+          "Hormonelike substances (prostaglandins) involved in pain and inflammation trigger the uterine muscle contractions. Higher levels of prostaglandins are associated with more-severe menstrual cramps"
+        ]
+      },
+      {
+        "tag": "doctor",
+        "patterns": [
+          "What is a normal flow amount",
+          "My cramps are killing me"
+        ],
+        "responses": [
+          "The average amount of menstrual flow (measured in a laboratory from all collected tampons and pads) is about two tablespoons (30 ml) in a whole period. However, according to the Centre for Menstrual Cycle and Ovulation Research, the amount of flow is highly variable, ranging from a mere spot to over two cups (540 ml) in one period. Their studies found that women who are taller, have had children, and are in perimenopause have the heaviest flow, and the usual length of menstrual bleeding is four to six days. The flow and duration alone may not be likely indicators of an underlying problem. What you need to look out for are changes during the cycle. “If your periods are getting heavier or your cramps are getting worse over time (over 2 or 3 months), I would recommend getting evaluated to see what’s going on,” said Melani Harker, MD, Obstetrics & Gynecology at University of Utah Health Care.",
+          "If you have severe menstrual cramps, a visit to your doctor is the only way to determine the exact cause of your pain. During your visit, your doctor will talk to you about your symptoms. If we need additional information to confirm a diagnosis, a pelvic exam or ultrasound might be needed. These tests will help pinpoint the exact cause of your pain so your doctor can recommend the best treatment options for you."
+        ]
+      }
+    ]
+  }
