@@ -18,7 +18,7 @@ def bag_of_words(sentence, allwords):
             bag[index] = 1.0
     return bag
 
-a = "How long does shipping take"
+a = "How long does a period last?"
 print(a)
 a=tokenize(a)
 print(a)
